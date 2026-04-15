@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrigé Intégral Numération CM2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+        body { font-family: 'Andika', sans-serif; }
+        .answer { color: #059669; font-weight: bold; }
+        .logic-box { border-left: 4px solid #10b981; background-color: #f0fdf4; padding: 10px; margin: 10px 0; }
+        @media print {
+            .no-print { display: none; }
+            .card { box-shadow: none !important; border: 1px solid #e2e8f0; margin-bottom: 20px; page-break-inside: avoid; }
+            body { background-color: white; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 p-4 md:p-8">
+
+    <div class="max-w-5xl mx-auto">
+        <!-- En-tête -->
+        <header class="mb-8 border-b-4 border-emerald-600 pb-4 flex justify-between items-end">
+            <div>
+                <h1 class="text-3xl font-black text-emerald-800 uppercase tracking-tight">Corrigé d'Autocorrection Complet</h1>
+                <p class="text-slate-600 italic font-bold">Dossier de Pâques - CM2 (Conforme BO 2025-2026)</p>
+            </div>
+            <button onclick="window.print()" class="no-print bg-emerald-600 text-white px-6 py-2 rounded-lg shadow hover:bg-emerald-700 transition font-bold">
+                🖨️ IMPRIMER LE DOSSIER
+            </button>
+        </header>
+
+        <!-- PAGE 1 : MILLIONS (Décompositions et Droite) -->
+        <section class="card bg-white rounded-xl shadow-sm p-6 mb-8 border border-slate-200">
+            <h2 class="text-2xl font-bold text-emerald-700 mb-4 flex items-center gap-2">
+                <span class="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-sm">P. 1</span> 
+                La Classe des Millions
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="font-bold text-slate-800 mb-2 underline">1. Décomposition Multiplicative</h3>
+                    <ul class="space-y-3 text-sm font-mono bg-slate-50 p-3 rounded">
+                        <li>398 540 267 = <br><span class="answer">(3×100 000 000) + (9×10 000 000) + (8×1 000 000) + (5×100 000) + (4×10 000) + (2×100) + (6×10) + 7</span></li>
+                        <li>68 920 305 = <br><span class="answer">(6×10 000 000) + (8×1 000 000) + (9×100 000) + (2×10 000) + (3×100) + 5</span></li>
+                        <li>3 084 572 = <br><span class="answer">(3×1 000 000) + (8×10 000) + (4×1 000) + (5×100) + (7×10) + 2</span></li>
+                        <li>815 209 624 = <br><span class="answer">(8×100 000 000) + (1×10 000 000) + (5×1 000 000) + (2×100 000) + (9×1 000) + (6×100) + (2×10) + 4</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-slate-800 mb-2 underline">2. Décomposition Additive</h3>
+                    <ul class="space-y-3 text-sm font-mono bg-slate-50 p-3 rounded">
+                        <li>673 500 040 = <br><span class="answer">600 000 000 + 70 000 000 + 3 000 000 + 500 000 + 40</span></li>
+                        <li>35 498 214 = <br><span class="answer">30 000 000 + 5 000 000 + 400 000 + 90 000 + 8 000 + 200 + 10 + 4</span></li>
+                        <li>702 868 001 = <br><span class="answer">700 000 000 + 2 000 000 + 800 000 + 60 000 + 8 000 + 1</span></li>
+                        <li>196 545 900 = <br><span class="answer">100 000 000 + 90 000 000 + 6 000 000 + 500 000 + 40 000 + 5 000 + 900</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 p-4 bg-emerald-50 rounded-xl border border-emerald-200">
+                <h3 class="font-bold text-emerald-800 mb-2">📍 3. Droite Graduée</h3>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <p class="bg-white px-3 py-1 rounded border"><strong>3 200 000</strong> : 2 traits après 3M</p>
+                    <p class="bg-white px-3 py-1 rounded border"><strong>4 500 000</strong> : 5ème trait (milieu)</p>
+                    <p class="bg-white px-3 py-1 rounded border"><strong>5 400 000</strong> : 4 traits après 5M</p>
+                    <p class="bg-white px-3 py-1 rounded border"><strong>6 300 000</strong> : 3 traits après 6M</p>
+                    <p class="bg-white px-3 py-1 rounded border"><strong>7 100 000</strong> : 1er trait après 7M</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 2 : ÉCRITURE, ÉNIGMES ET CHEMIN -->
+        <section class="card bg-white rounded-xl shadow-sm p-6 mb-8 border border-slate-200">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-2">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">P. 2</span> 
+                Écritures et Réflexion
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="font-bold mb-2">🕵️ Le Nombre Mystérieux :</h3>
+                    <div class="logic-box">
+                        Réponse : <span class="answer">62 100 030</span>
+                    </div>
+                    <h3 class="font-bold mt-4 mb-2">✍️ Écriture en Lettres :</h3>
+                    <ul class="text-xs space-y-2 italic">
+                        <li>6 532 140 : <span class="answer">Six millions cinq cent trente-deux mille cent quarante.</span></li>
+                        <li>84 325 980 : <span class="answer">Quatre-vingt-quatre millions trois cent vingt-cinq mille neuf cent quatre-vingts.</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold mb-2">⭐ Suites Logiques :</h3>
+                    <ul class="text-sm space-y-3">
+                        <li class="bg-slate-50 p-2 rounded">Suite 1 (+111 111) : <br>2 333 666 | 2 444 777 | <span class="answer">2 555 888</span> | <span class="answer">2 666 999</span></li>
+                        <li class="bg-slate-50 p-2 rounded">Suite 2 (+20 000 000) : <br>70 000 000 | <span class="answer">90 000 000</span> | 110 000 000 | <span class="answer">130 000 000</span></li>
+                        <li class="bg-slate-50 p-2 rounded">Suite 3 (+500 000) : <br>5 000 000 | 5 500 000 | <span class="answer">6 000 000</span> | <span class="answer">6 500 000</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 p-4 bg-yellow-50 rounded-xl border border-yellow-200">
+                <h3 class="font-bold text-yellow-800 mb-2">🛤️ Chemin du Million (Cases à colorier) :</h3>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="answer bg-white px-2 py-1 rounded border">500 000 x 2</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">1 000 002 - 2</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">un million</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">4 x 250 000</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">1 + 999 999</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">700 000 + 300 000</span>
+                    <span class="answer bg-white px-2 py-1 rounded border">3 000 500 - 2 000 500</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 3 : VERS LES MILLIARDS -->
+        <section class="card bg-white rounded-xl shadow-sm p-6 mb-8 border border-slate-200">
+            <h2 class="text-2xl font-bold text-indigo-700 mb-4 flex items-center gap-2">
+                <span class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">P. 3</span> 
+                Découverte des Milliards
+            </h2>
+
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-bold mb-2">1. Tableau Précédent/Suivant</h3>
+                    <table class="w-full text-xs text-left border-collapse">
+                        <thead>
+                            <tr class="bg-slate-100">
+                                <th class="border p-2">Précédent (-1)</th>
+                                <th class="border p-2">Nombre donné</th>
+                                <th class="border p-2">Suivant (+1)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border p-2 answer">8 122 999 999</td>
+                                <td class="border p-2 font-bold">8 123 000 000</td>
+                                <td class="border p-2 answer">8 123 000 001</td>
+                            </tr>
+                            <tr>
+                                <td class="border p-2 answer">999 999 999</td>
+                                <td class="border p-2 font-bold">1 000 000 000</td>
+                                <td class="border p-2 answer">1 000 000 001</td>
+                            </tr>
+                            <tr>
+                                <td class="border p-2 answer">10 999 999 998</td>
+                                <td class="border p-2 font-bold">10 999 999 999</td>
+                                <td class="border p-2 answer">11 000 000 000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-bold mb-2">2. Encadrement au Milliard près :</h3>
+                        <ul class="text-sm space-y-2">
+                            <li><span class="answer">2 000 000 000</span> < 2 582 120 300 < <span class="answer">3 000 000 000</span></li>
+                            <li><span class="answer">289 000 000 000</span> < 289 250 100 400 < <span class="answer">290 000 000 000</span></li>
+                            <li><span class="answer">49 000 000 000</span> < 49 025 565 100 < <span class="answer">50 000 000 000</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-2">3. Défi Final (Chiffres/Lettres) :</h3>
+                        <div class="bg-indigo-50 p-3 rounded border border-indigo-200">
+                            <p class="text-xs">Expression : (5×10M) + (56×100) + (65×1Md) + 20</p>
+                            <p class="text-sm mt-2"><strong>Chiffres :</strong> <span class="answer">65 050 005 620</span></p>
+                            <p class="text-xs mt-1"><strong>Lettres :</strong> <span class="answer text-[10px]">Soixante-cinq milliards cinquante millions cinq mille six cent vingt.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4 : CLASSE DES MILLIARDS (Comparaison et Rangement) -->
+        <section class="card bg-white rounded-xl shadow-sm p-6 mb-8 border border-slate-200">
+            <h2 class="text-2xl font-bold text-purple-700 mb-4 flex items-center gap-2">
+                <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm">P. 4</span> 
+                Comparaison des Milliards
+            </h2>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="font-bold mb-4">1. Signes < ou ></h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm font-mono">
+                        <p class="p-2 border rounded">2 232 981 342 <span class="answer">></span> 2 232 891 342</p>
+                        <p class="p-2 border rounded">68 534 120 987 <span class="answer">></span> 68 534 120 889</p>
+                        <p class="p-2 border rounded">1 000 365 201 <span class="answer">></span> 999 999 999</p>
+                        <p class="p-2 border rounded">52 395 478 637 <span class="answer"><</span> 54 280 365 023</p>
+                        <p class="p-2 border rounded">3 256 000 000 <span class="answer"><</span> 3 256 111 111</p>
+                        <p class="p-2 border rounded">5 009 325 007 <span class="answer"><</span> 5 009 523 007</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold mb-2">2. Ordre Décroissant (du + grand au + petit)</h3>
+                    <div class="logic-box text-center text-sm font-bold">
+                        <span class="answer">60 253 541 256</span> > <span class="answer">6 253 985 106</span> > <span class="answer">6 253 984 256</span> > <span class="answer">6 253 984 253</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold mb-2">3. Décomposition des Milliards</h3>
+                    <div class="space-y-4">
+                        <div class="p-3 bg-slate-50 rounded">
+                            <p class="text-sm font-bold">56 230 000 350 =</p>
+                            <p class="text-xs answer">(56 x 1 000 000 000) + (230 x 1 000 000) + (3 x 100) + (5 x 10)</p>
+                        </div>
+                        <div class="p-3 bg-slate-50 rounded">
+                            <p class="text-sm font-bold">230 684 302 647 =</p>
+                            <p class="text-xs answer">(230 x 1 000 000 000) + (684 x 1 000 000) + (302 x 1 000) + 647</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 p-6 bg-slate-900 text-white rounded-2xl text-center">
+                <h3 class="text-2xl font-black mb-2 uppercase tracking-widest text-emerald-400">⚓ Défi Capitaine Haddock</h3>
+                <p class="italic mb-4">"Mille millions de mille sabords !"</p>
+                <div class="text-3xl font-mono font-bold text-yellow-400">
+                    1 000 000 000
+                </div>
+                <p class="text-xs mt-2 opacity-60">C'est un milliard (1 suivi de 9 zéros).</p>
+            </div>
+        </section>
+
+        <footer class="mt-12 text-center text-slate-400 text-xs italic border-t pt-4 no-print">
+            Expertise Pédagogique Cycle 3 - CM2. Bulletin Officiel 2025-2026.
+        </footer>
+    </div>
+
+</body>
+</html>
